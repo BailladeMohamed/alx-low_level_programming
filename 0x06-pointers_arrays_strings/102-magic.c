@@ -2,25 +2,22 @@
 
 int main(void)
 {
-	int number;
-	int array[5];
-	int *pointer;
+  int n;
+  int a[5];
+  int *p;
 
-	array[2] = 1024;
-	pointer = &number;
-
-	/*
-	* Replace the line below to assign 98 to array[2]
-	* using only one statement.
-	* Remember:
-	* - You are not allowed to use "array".
-	* - You are not allowed to modify "pointer".
-	* - You are not allowed to code anything else than this line of code.
-	*/
-	*(pointer + 5) = 98;
-
-	/* ...so that this prints 98\n */
-	printf("array[2] = %d\n", array[2]);
-
-	return (0);
+  a[2] = 1024;
+  p = &n;
+  /*
+   * write your line of code here...
+   * Remember:
+   * - you are not allowed to use a
+   * - you are not allowed to modify p
+   * - only one statement
+   * - you are not allowed to code anything else than this line of code
+   */
+  *(p + 5) = 98;
+  /* ...so that this prints 98\n */
+  printf("a[2] = %d\n", a[2]);
+  return (0);
 }
