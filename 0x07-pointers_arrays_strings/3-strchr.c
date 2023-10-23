@@ -4,7 +4,9 @@
  * _strspn - Gets the length of a prefix substring
  * @s: Segment of string
  * @accept: Set of characters to accept
- * Return: Always 0 (Success)
+ *
+ * Return: Length of the prefix substring in @s that consists
+ *         entirely of characters from @accept
  */
 unsigned int _strspn(char *s, char *accept)
 {
