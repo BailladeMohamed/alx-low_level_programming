@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 #include <stdio.h>
 /**
- * array_iterator - iteratee through an array and performs action on each element
+ * array_iterator - it maps an array through a function pointer
  * @array: the array to iterate through it
  * @size: the number of elemnts in the array.
  * @action: pointer to the function that performs an actionn on an elemnt.
